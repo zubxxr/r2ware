@@ -1,7 +1,0 @@
-{
-  "package_name": "autoware_sensing_msgs",
-  "non_idl_tuples": [
-    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_sensing_msgs:msg/GnssInsOrientation.msg",
-    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_sensing_msgs:msg/GnssInsOrientationStamped.msg"
-  ]
-}

@@ -1,3 +1,0 @@
-[console_scripts]
-control_bridge = control.yahboom_car_driver:main
-

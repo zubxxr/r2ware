@@ -1,8 +1,0 @@
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/GateMode.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/ExternalCommandSelectorMode.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:srv/ExternalCommandSelect.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/IsStartRequested.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/IsPaused.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:srv/SetPause.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:msg/IsStopped.idl
-/root/r2ware/build/tier4_control_msgs/rosidl_adapter/tier4_control_msgs:srv/SetStop.idl

@@ -1,9 +1,0 @@
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/AreaInfo.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/LaneletMapBin.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapCellWithID.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapCellMetaData.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapCellMetaDataWithID.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:msg/PointCloudMapMetaData.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:srv/GetPartialPointCloudMap.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:srv/GetDifferentialPointCloudMap.idl
-/root/r2ware/build/autoware_map_msgs/rosidl_adapter/autoware_map_msgs:srv/GetSelectedPointCloudMap.idl

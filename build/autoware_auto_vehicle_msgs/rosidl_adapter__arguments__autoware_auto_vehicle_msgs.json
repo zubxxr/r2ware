@@ -1,6 +1,0 @@
-{
-  "package_name": "autoware_auto_vehicle_msgs",
-  "non_idl_tuples": [
-    "/root/r2ware/src/autoware_dependencies/core/external/autoware_auto_msgs/autoware_auto_vehicle_msgs:srv/ControlModeCommand.srv"
-  ]
-}
