@@ -1,0 +1,612 @@
+[0.085s] Invoking command in '/root/r2ware/build/autoware_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_planning_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/r2ware/install/autoware_common_msgs/lib:/root/r2ware/install/autoware_auto_system_msgs/lib:/root/r2ware/install/autoware_auto_mapping_msgs/lib:/root/r2ware/install/autoware_auto_geometry_msgs/lib:/root/r2ware/install/autoware_auto_control_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/root/r2ware/install/autoware_vehicle_msgs
+[6.730s] -- The C compiler identification is GNU 9.4.0
+[6.730s] -- The CXX compiler identification is GNU 9.4.0
+[6.730s] -- Check for working C compiler: /usr/bin/cc
+[6.731s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.731s] -- Detecting C compiler ABI info
+[6.731s] -- Detecting C compiler ABI info - done
+[6.731s] -- Detecting C compile features
+[6.731s] -- Detecting C compile features - done
+[6.731s] -- Check for working CXX compiler: /usr/bin/c++
+[6.731s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.731s] -- Detecting CXX compiler ABI info
+[6.732s] -- Detecting CXX compiler ABI info - done
+[6.732s] -- Detecting CXX compile features
+[6.732s] -- Detecting CXX compile features - done
+[6.732s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[6.732s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.732s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.732s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.732s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.733s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.733s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.733s] -- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[6.733s] -- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[6.733s] -- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[6.733s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.769s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.787s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.885s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.887s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.887s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[6.966s] -- Found PythonExtra: .so  
+[7.327s] -- Found ament_cmake_flake8: 0.9.7 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[7.349s] -- Found ament_cmake_pep257: 0.9.7 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[7.373s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.479s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.485s] -- Added test 'lint_cmake' to check CMake code style
+[7.488s] -- Added test 'xmllint' to check XML markup files
+[7.509s] -- Configuring done
+[7.774s] -- Generating done
+[7.784s] -- Build files have been written to: /root/r2ware/build/autoware_vehicle_msgs
+[7.834s] Invoked command in '/root/r2ware/build/autoware_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_planning_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/r2ware/install/autoware_common_msgs/lib:/root/r2ware/install/autoware_auto_system_msgs/lib:/root/r2ware/install/autoware_auto_mapping_msgs/lib:/root/r2ware/install/autoware_auto_geometry_msgs/lib:/root/r2ware/install/autoware_auto_control_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs -DCMAKE_INSTALL_PREFIX=/root/r2ware/install/autoware_vehicle_msgs
+[7.837s] Invoking command in '/root/r2ware/build/autoware_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_planning_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/r2ware/install/autoware_common_msgs/lib:/root/r2ware/install/autoware_auto_system_msgs/lib:/root/r2ware/install/autoware_auto_mapping_msgs/lib:/root/r2ware/install/autoware_auto_geometry_msgs/lib:/root/r2ware/install/autoware_auto_control_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /root/r2ware/build/autoware_vehicle_msgs -- -j8 -l8
+[32.083s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__cpp[0m
+[32.083s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[32.083s] [  0%] Built target autoware_vehicle_msgs__cpp
+[32.083s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[32.083s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_generator_c[0m
+[32.084s] [  1%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/control_mode_command__functions.c.o[0m
+[32.084s] [  1%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/gear_report__functions.c.o[0m
+[32.084s] [  2%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/hazard_lights_command__functions.c.o[0m
+[32.084s] [  3%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/hazard_lights_report__functions.c.o[0m
+[32.084s] [  3%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/steering_report__functions.c.o[0m
+[32.084s] [  4%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/turn_indicators_command__functions.c.o[0m
+[32.085s] [  5%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/turn_indicators_report__functions.c.o[0m
+[32.085s] [  5%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/vehicle_control_command__functions.c.o[0m
+[32.085s] [  6%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__functions.c.o[0m
+[32.085s] [  7%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/vehicle_odometry__functions.c.o[0m
+[32.085s] [  8%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/velocity_report__functions.c.o[0m
+[32.085s] [  8%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/srv/detail/control_mode_command__functions.c.o[0m
+[32.085s] [  9%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/gear_command__functions.c.o[0m
+[32.086s] [ 10%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/engage__functions.c.o[0m
+[32.086s] [ 11%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_generator_c.dir/rosidl_generator_c/autoware_vehicle_msgs/msg/detail/control_mode_report__functions.c.o[0m
+[32.086s] [ 12%] [32m[1mLinking C shared library libautoware_vehicle_msgs__rosidl_generator_c.so[0m
+[32.086s] [ 12%] Built target autoware_vehicle_msgs__rosidl_generator_c
+[32.086s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[32.086s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_cpp[0m
+[32.086s] [ 14%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/control_mode_command__type_support.cpp.o[0m
+[32.087s] [ 15%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/gear_command__type_support.cpp.o[0m
+[32.087s] [ 15%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/gear_report__type_support.cpp.o[0m
+[32.087s] [ 16%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/hazard_lights_command__type_support.cpp.o[0m
+[32.093s] [ 17%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/hazard_lights_report__type_support.cpp.o[0m
+[32.095s] [ 18%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/steering_report__type_support.cpp.o[0m
+[32.095s] [ 18%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/turn_indicators_command__type_support.cpp.o[0m
+[32.095s] [ 19%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/turn_indicators_report__type_support.cpp.o[0m
+[32.095s] [ 20%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/vehicle_control_command__type_support.cpp.o[0m
+[32.095s] [ 20%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/vehicle_kinematic_state__type_support.cpp.o[0m
+[32.096s] [ 21%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/vehicle_odometry__type_support.cpp.o[0m
+[32.096s] [ 22%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/velocity_report__type_support.cpp.o[0m
+[32.096s] [ 22%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/srv/control_mode_command__type_support.cpp.o[0m
+[32.096s] [ 23%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/engage__type_support.cpp.o[0m
+[32.445s] [ 23%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autoware_vehicle_msgs/msg/control_mode_report__type_support.cpp.o[0m
+[33.149s] [ 24%] [32m[1mLinking CXX shared library libautoware_vehicle_msgs__rosidl_typesupport_cpp.so[0m
+[33.301s] [ 24%] Built target autoware_vehicle_msgs__rosidl_typesupport_cpp
+[33.346s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.398s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_c[0m
+[35.449s] [ 25%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/control_mode_command__type_support.cpp.o[0m
+[35.535s] [ 26%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/gear_report__type_support.cpp.o[0m
+[35.621s] [ 27%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/hazard_lights_command__type_support.cpp.o[0m
+[35.707s] [ 28%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/hazard_lights_report__type_support.cpp.o[0m
+[35.799s] [ 28%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/steering_report__type_support.cpp.o[0m
+[35.892s] [ 29%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/turn_indicators_command__type_support.cpp.o[0m
+[35.985s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/turn_indicators_report__type_support.cpp.o[0m
+[36.077s] [ 30%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/vehicle_control_command__type_support.cpp.o[0m
+[36.175s] [ 31%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/vehicle_kinematic_state__type_support.cpp.o[0m
+[36.263s] [ 32%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/vehicle_odometry__type_support.cpp.o[0m
+[36.348s] [ 32%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/velocity_report__type_support.cpp.o[0m
+[36.434s] [ 33%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/srv/control_mode_command__type_support.cpp.o[0m
+[36.524s] [ 33%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/gear_command__type_support.cpp.o[0m
+[36.611s] [ 34%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/engage__type_support.cpp.o[0m
+[36.702s] [ 35%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/autoware_vehicle_msgs/msg/control_mode_report__type_support.cpp.o[0m
+[36.789s] [ 36%] [32m[1mLinking CXX shared library libautoware_vehicle_msgs__rosidl_typesupport_c.so[0m
+[36.913s] [ 36%] Built target autoware_vehicle_msgs__rosidl_typesupport_c
+[36.952s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[39.600s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_introspection_c[0m
+[39.659s] [ 38%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/control_mode_command__type_support.c.o[0m
+[39.749s] [ 38%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/hazard_lights_command__type_support.c.o[0m
+[39.838s] [ 39%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/hazard_lights_report__type_support.c.o[0m
+[39.929s] [ 40%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/steering_report__type_support.c.o[0m
+[40.022s] [ 40%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/turn_indicators_command__type_support.c.o[0m
+[40.113s] [ 41%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/turn_indicators_report__type_support.c.o[0m
+[40.202s] [ 42%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/vehicle_control_command__type_support.c.o[0m
+[40.295s] [ 42%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__type_support.c.o[0m
+[40.396s] [ 43%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/vehicle_odometry__type_support.c.o[0m
+[40.492s] [ 44%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/velocity_report__type_support.c.o[0m
+[40.586s] [ 45%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/srv/detail/control_mode_command__type_support.c.o[0m
+[40.683s] [ 46%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/gear_report__type_support.c.o[0m
+[40.774s] [ 47%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/gear_command__type_support.c.o[0m
+[40.867s] [ 48%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/engage__type_support.c.o[0m
+[40.957s] [ 48%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autoware_vehicle_msgs/msg/detail/control_mode_report__type_support.c.o[0m
+[41.048s] [ 48%] [32m[1mLinking C shared library libautoware_vehicle_msgs__rosidl_typesupport_introspection_c.so[0m
+[41.153s] [ 48%] Built target autoware_vehicle_msgs__rosidl_typesupport_introspection_c
+[41.191s] [ 49%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[43.833s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[43.903s] [ 51%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/control_mode_command__type_support.cpp.o[0m
+[43.903s] [ 51%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/control_mode_report__type_support.cpp.o[0m
+[44.869s] [ 52%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/hazard_lights_report__type_support.cpp.o[0m
+[44.870s] [ 53%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/steering_report__type_support.cpp.o[0m
+[45.840s] [ 53%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/turn_indicators_command__type_support.cpp.o[0m
+[45.840s] [ 53%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/hazard_lights_command__type_support.cpp.o[0m
+[46.825s] [ 54%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/vehicle_control_command__type_support.cpp.o[0m
+[46.839s] [ 55%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/gear_report__type_support.cpp.o[0m
+[46.851s] [ 56%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/turn_indicators_report__type_support.cpp.o[0m
+[47.940s] [ 57%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/vehicle_kinematic_state__type_support.cpp.o[0m
+[47.941s] [ 57%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/vehicle_odometry__type_support.cpp.o[0m
+[48.106s] [ 58%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/velocity_report__type_support.cpp.o[0m
+[48.203s] [ 59%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/srv/detail/dds_fastrtps/control_mode_command__type_support.cpp.o[0m
+[49.320s] [ 59%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/engage__type_support.cpp.o[0m
+[49.322s] [ 60%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autoware_vehicle_msgs/msg/detail/dds_fastrtps/gear_command__type_support.cpp.o[0m
+[51.394s] [ 60%] [32m[1mLinking CXX shared library libautoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[51.948s] [ 60%] Built target autoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp
+[51.989s] [ 60%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[54.514s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp[0m
+[54.569s] [ 61%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/control_mode_command__type_support.cpp.o[0m
+[55.227s] [ 61%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/hazard_lights_report__type_support.cpp.o[0m
+[55.888s] [ 62%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/steering_report__type_support.cpp.o[0m
+[56.553s] [ 63%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/turn_indicators_command__type_support.cpp.o[0m
+[57.214s] [ 63%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/turn_indicators_report__type_support.cpp.o[0m
+[57.876s] [ 64%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/vehicle_control_command__type_support.cpp.o[0m
+[58.539s] [ 65%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__type_support.cpp.o[0m
+[59.231s] [ 65%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/vehicle_odometry__type_support.cpp.o[0m
+[59.892s] [ 66%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/velocity_report__type_support.cpp.o[0m
+[60.556s] [ 67%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/srv/detail/control_mode_command__type_support.cpp.o[0m
+[61.215s] [ 68%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/hazard_lights_command__type_support.cpp.o[0m
+[61.884s] [ 70%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/gear_command__type_support.cpp.o[0m
+[61.885s] [ 70%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/gear_report__type_support.cpp.o[0m
+[62.614s] [ 70%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/engage__type_support.cpp.o[0m
+[62.641s] [ 71%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autoware_vehicle_msgs/msg/detail/control_mode_report__type_support.cpp.o[0m
+[63.398s] [ 72%] [32m[1mLinking CXX shared library libautoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[63.612s] [ 72%] Built target autoware_vehicle_msgs__rosidl_typesupport_introspection_cpp
+[63.661s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[66.237s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c[0m
+[66.347s] [ 74%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/control_mode_command__type_support_c.cpp.o[0m
+[66.366s] [ 74%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/control_mode_report__type_support_c.cpp.o[0m
+[67.195s] [ 74%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/steering_report__type_support_c.cpp.o[0m
+[67.215s] [ 75%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/turn_indicators_command__type_support_c.cpp.o[0m
+[68.010s] [ 76%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/turn_indicators_report__type_support_c.cpp.o[0m
+[68.036s] [ 77%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/vehicle_control_command__type_support_c.cpp.o[0m
+[68.830s] [ 77%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__type_support_c.cpp.o[0m
+[68.850s] [ 78%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/vehicle_odometry__type_support_c.cpp.o[0m
+[69.654s] [ 79%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/velocity_report__type_support_c.cpp.o[0m
+[69.664s] [ 79%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/srv/detail/control_mode_command__type_support_c.cpp.o[0m
+[70.457s] [ 80%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/hazard_lights_report__type_support_c.cpp.o[0m
+[70.497s] [ 81%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/hazard_lights_command__type_support_c.cpp.o[0m
+[71.268s] [ 81%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/gear_report__type_support_c.cpp.o[0m
+[71.321s] [ 82%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/gear_command__type_support_c.cpp.o[0m
+[72.142s] [ 83%] [32mBuilding CXX object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autoware_vehicle_msgs/msg/detail/engage__type_support_c.cpp.o[0m
+[73.077s] [ 84%] [32m[1mLinking CXX shared library libautoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[73.453s] [ 84%] Built target autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c
+[73.576s] [35m[1mScanning dependencies of target autoware_vehicle_msgs[0m
+[73.662s] [ 84%] Built target autoware_vehicle_msgs
+[73.705s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__py[0m
+[73.763s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[79.748s] [ 85%] Built target autoware_vehicle_msgs__py
+[79.784s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__python[0m
+[79.904s] [ 86%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_control_mode_report_s.c.o[0m
+[79.905s] [ 86%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_control_mode_command_s.c.o[0m
+[80.122s] [ 86%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_steering_report_s.c.o[0m
+[80.127s] [ 87%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_turn_indicators_command_s.c.o[0m
+[80.342s] [ 88%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_turn_indicators_report_s.c.o[0m
+[80.343s] [ 89%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_vehicle_control_command_s.c.o[0m
+[80.564s] [ 89%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_vehicle_kinematic_state_s.c.o[0m
+[80.564s] [ 90%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_vehicle_odometry_s.c.o[0m
+[80.787s] [ 91%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_velocity_report_s.c.o[0m
+[80.795s] [ 91%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/srv/_control_mode_command_s.c.o[0m
+[81.010s] [ 92%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_hazard_lights_report_s.c.o[0m
+[81.016s] [ 93%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_hazard_lights_command_s.c.o[0m
+[81.220s] [ 94%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_gear_report_s.c.o[0m
+[81.221s] [ 94%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_gear_command_s.c.o[0m
+[81.432s] [ 95%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__python.dir/rosidl_generator_py/autoware_vehicle_msgs/msg/_engage_s.c.o[0m
+[81.639s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autoware_vehicle_msgs/libautoware_vehicle_msgs__python.so[0m
+[81.776s] [ 96%] Built target autoware_vehicle_msgs__python
+[81.819s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[81.820s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[81.820s] [35m[1mScanning dependencies of target autoware_vehicle_msgs__rosidl_typesupport_c__pyext[0m
+[81.886s] [ 98%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autoware_vehicle_msgs/_autoware_vehicle_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[81.886s] [ 98%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autoware_vehicle_msgs/_autoware_vehicle_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[81.907s] [ 99%] [32mBuilding C object CMakeFiles/autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autoware_vehicle_msgs/_autoware_vehicle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[82.201s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[82.203s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[82.235s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[82.340s] [100%] Built target autoware_vehicle_msgs__rosidl_typesupport_c__pyext
+[82.340s] [100%] Built target autoware_vehicle_msgs__rosidl_typesupport_introspection_c__pyext
+[82.432s] [100%] Built target autoware_vehicle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[82.474s] Invoked command in '/root/r2ware/build/autoware_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_planning_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/r2ware/install/autoware_common_msgs/lib:/root/r2ware/install/autoware_auto_system_msgs/lib:/root/r2ware/install/autoware_auto_mapping_msgs/lib:/root/r2ware/install/autoware_auto_geometry_msgs/lib:/root/r2ware/install/autoware_auto_control_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /root/r2ware/build/autoware_vehicle_msgs -- -j8 -l8
+[83.677s] Invoking command in '/root/r2ware/build/autoware_vehicle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_planning_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/r2ware/install/autoware_common_msgs/lib:/root/r2ware/install/autoware_auto_system_msgs/lib:/root/r2ware/install/autoware_auto_mapping_msgs/lib:/root/r2ware/install/autoware_auto_geometry_msgs/lib:/root/r2ware/install/autoware_auto_control_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /root/r2ware/build/autoware_vehicle_msgs
+[83.708s] -- Install configuration: ""
+[83.708s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/ament_index/resource_index/rosidl_interfaces/autoware_vehicle_msgs
+[83.708s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs
+[83.709s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg
+[83.709s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/velocity_report.h
+[83.709s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/hazard_lights_command.h
+[83.709s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/rosidl_generator_c__visibility_control.h
+[83.709s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/engage.h
+[83.710s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/gear_report.h
+[83.710s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/hazard_lights_report.h
+[83.710s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/vehicle_odometry.h
+[83.710s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/control_mode_report.h
+[83.710s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/turn_indicators_report.h
+[83.711s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/vehicle_kinematic_state.h
+[83.711s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/vehicle_control_command.h
+[83.711s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail
+[83.711s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__functions.h
+[83.712s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__type_support.h
+[83.712s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__functions.c
+[83.712s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__struct.h
+[83.712s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__functions.h
+[83.715s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__struct.h
+[83.716s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__functions.c
+[83.716s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__functions.c
+[83.716s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__functions.c
+[83.717s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__functions.h
+[83.717s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__struct.h
+[83.717s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__functions.c
+[83.717s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__struct.h
+[83.717s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__functions.h
+[83.717s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__type_support.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__functions.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__struct.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__struct.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__struct.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__type_support.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__functions.h
+[83.718s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__functions.c
+[83.719s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__struct.h
+[83.719s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__functions.c
+[83.719s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__struct.h
+[83.719s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__struct.h
+[83.720s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__type_support.h
+[83.720s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__functions.c
+[83.720s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__functions.c
+[83.720s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__functions.c
+[83.721s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__struct.h
+[83.721s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__functions.c
+[83.721s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__type_support.h
+[83.721s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__functions.h
+[83.721s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__type_support.h
+[83.722s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__type_support.h
+[83.722s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__functions.h
+[83.722s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__struct.h
+[83.722s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__struct.h
+[83.723s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__functions.h
+[83.723s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__type_support.h
+[83.723s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__functions.h
+[83.723s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__functions.h
+[83.724s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__functions.h
+[83.724s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__functions.c
+[83.724s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__type_support.h
+[83.724s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__struct.h
+[83.724s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__functions.c
+[83.725s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__type_support.h
+[83.725s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__type_support.h
+[83.725s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__type_support.h
+[83.725s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__functions.c
+[83.726s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__type_support.h
+[83.726s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__type_support.h
+[83.726s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__functions.h
+[83.726s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__functions.h
+[83.727s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/turn_indicators_command.h
+[83.727s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/gear_command.h
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/steering_report.h
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/control_mode_command.h
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__type_support.h
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__struct.h
+[83.728s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__functions.h
+[83.729s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__functions.c
+[83.729s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/control_mode_command.h
+[83.729s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/library_path.sh
+[83.730s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/library_path.dsv
+[83.730s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_generator_c.so
+[83.731s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_generator_c.so" to ""
+[83.731s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs
+[83.732s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg
+[83.732s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[83.732s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail
+[83.732s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__rosidl_typesupport_fastrtps_c.h
+[83.732s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__rosidl_typesupport_fastrtps_c.h
+[83.732s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__rosidl_typesupport_fastrtps_c.h
+[83.733s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__rosidl_typesupport_fastrtps_c.h
+[83.733s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_c.h
+[83.733s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__rosidl_typesupport_fastrtps_c.h
+[83.733s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__rosidl_typesupport_fastrtps_c.h
+[83.733s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__rosidl_typesupport_fastrtps_c.h
+[83.734s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__rosidl_typesupport_fastrtps_c.h
+[83.734s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__rosidl_typesupport_fastrtps_c.h
+[83.734s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__rosidl_typesupport_fastrtps_c.h
+[83.734s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_fastrtps_c.h
+[83.735s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__rosidl_typesupport_fastrtps_c.h
+[83.735s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_fastrtps_c.h
+[83.735s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv
+[83.735s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail
+[83.735s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__rosidl_typesupport_fastrtps_c.h
+[83.736s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.so
+[83.736s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[83.737s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs
+[83.737s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg
+[83.737s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[83.737s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail
+[83.737s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[83.737s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__rosidl_typesupport_fastrtps_cpp.hpp
+[83.738s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__rosidl_typesupport_fastrtps_cpp.hpp
+[83.738s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__rosidl_typesupport_fastrtps_cpp.hpp
+[83.738s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__rosidl_typesupport_fastrtps_cpp.hpp
+[83.738s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_fastrtps_cpp.hpp
+[83.739s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__rosidl_typesupport_fastrtps_cpp.hpp
+[83.739s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/dds_fastrtps
+[83.739s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__rosidl_typesupport_fastrtps_cpp.hpp
+[83.739s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_fastrtps_cpp.hpp
+[83.739s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__rosidl_typesupport_fastrtps_cpp.hpp
+[83.740s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__rosidl_typesupport_fastrtps_cpp.hpp
+[83.740s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__rosidl_typesupport_fastrtps_cpp.hpp
+[83.740s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__rosidl_typesupport_fastrtps_cpp.hpp
+[83.740s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[83.741s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv
+[83.741s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail
+[83.741s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/dds_fastrtps
+[83.741s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__rosidl_typesupport_fastrtps_cpp.hpp
+[83.741s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[83.743s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[83.743s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs
+[83.743s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg
+[83.744s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[83.744s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail
+[83.744s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__type_support.c
+[83.744s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__type_support.c
+[83.744s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__rosidl_typesupport_introspection_c.h
+[83.745s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__rosidl_typesupport_introspection_c.h
+[83.745s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__type_support.c
+[83.745s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__type_support.c
+[83.745s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__rosidl_typesupport_introspection_c.h
+[83.745s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_introspection_c.h
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__rosidl_typesupport_introspection_c.h
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__type_support.c
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__type_support.c
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__rosidl_typesupport_introspection_c.h
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__rosidl_typesupport_introspection_c.h
+[83.746s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__rosidl_typesupport_introspection_c.h
+[83.749s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__type_support.c
+[83.749s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__type_support.c
+[83.749s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__rosidl_typesupport_introspection_c.h
+[83.749s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__rosidl_typesupport_introspection_c.h
+[83.749s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_introspection_c.h
+[83.749s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__rosidl_typesupport_introspection_c.h
+[83.750s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__type_support.c
+[83.750s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__type_support.c
+[83.750s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__type_support.c
+[83.750s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__type_support.c
+[83.750s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__type_support.c
+[83.750s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__rosidl_typesupport_introspection_c.h
+[83.751s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__type_support.c
+[83.751s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv
+[83.751s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail
+[83.751s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__rosidl_typesupport_introspection_c.h
+[83.751s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__type_support.c
+[83.751s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_introspection_c.so
+[83.752s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_introspection_c.so" to ""
+[83.752s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_c.so
+[83.753s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_c.so" to ""
+[83.753s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs
+[83.754s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg
+[83.754s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/hazard_lights_command.hpp
+[83.754s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/engage.hpp
+[83.754s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/turn_indicators_command.hpp
+[83.754s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/control_mode_command.hpp
+[83.755s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/gear_command.hpp
+[83.755s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/velocity_report.hpp
+[83.755s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/hazard_lights_report.hpp
+[83.755s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/turn_indicators_report.hpp
+[83.756s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail
+[83.756s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__traits.hpp
+[83.757s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__builder.hpp
+[83.757s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__traits.hpp
+[83.758s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__traits.hpp
+[83.758s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__traits.hpp
+[83.758s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__traits.hpp
+[83.758s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__struct.hpp
+[83.759s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__builder.hpp
+[83.759s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__builder.hpp
+[83.760s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__builder.hpp
+[83.760s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__struct.hpp
+[83.761s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__builder.hpp
+[83.761s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__builder.hpp
+[83.762s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__traits.hpp
+[83.762s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__struct.hpp
+[83.763s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__struct.hpp
+[83.763s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__traits.hpp
+[83.763s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__struct.hpp
+[83.764s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__traits.hpp
+[83.764s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__traits.hpp
+[83.764s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__builder.hpp
+[83.765s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__traits.hpp
+[83.765s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__struct.hpp
+[83.766s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__builder.hpp
+[83.767s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__traits.hpp
+[83.767s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__struct.hpp
+[83.768s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__struct.hpp
+[83.768s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__traits.hpp
+[83.769s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__builder.hpp
+[83.769s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__traits.hpp
+[83.770s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__builder.hpp
+[83.771s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__struct.hpp
+[83.771s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__struct.hpp
+[83.771s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__struct.hpp
+[83.772s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__traits.hpp
+[83.772s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__builder.hpp
+[83.773s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__builder.hpp
+[83.773s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__struct.hpp
+[83.774s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__builder.hpp
+[83.774s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__struct.hpp
+[83.775s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__builder.hpp
+[83.775s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__struct.hpp
+[83.776s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/vehicle_odometry.hpp
+[83.777s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/steering_report.hpp
+[83.777s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/control_mode_report.hpp
+[83.778s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/vehicle_kinematic_state.hpp
+[83.778s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/vehicle_control_command.hpp
+[83.779s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/gear_report.hpp
+[83.779s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv
+[83.780s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/control_mode_command.hpp
+[83.780s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail
+[83.781s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__traits.hpp
+[83.781s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__builder.hpp
+[83.783s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__struct.hpp
+[83.783s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs
+[83.783s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg
+[83.783s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail
+[83.783s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__rosidl_typesupport_introspection_cpp.hpp
+[83.783s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__type_support.cpp
+[83.784s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__type_support.cpp
+[83.785s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_control_command__rosidl_typesupport_introspection_cpp.hpp
+[83.785s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__type_support.cpp
+[83.786s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__rosidl_typesupport_introspection_cpp.hpp
+[83.786s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__type_support.cpp
+[83.786s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__rosidl_typesupport_introspection_cpp.hpp
+[83.786s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/velocity_report__type_support.cpp
+[83.786s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_report__type_support.cpp
+[83.787s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__rosidl_typesupport_introspection_cpp.hpp
+[83.787s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__rosidl_typesupport_introspection_cpp.hpp
+[83.787s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__rosidl_typesupport_introspection_cpp.hpp
+[83.787s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_cpp.hpp
+[83.787s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_command__type_support.cpp
+[83.787s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__rosidl_typesupport_introspection_cpp.hpp
+[83.788s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__type_support.cpp
+[83.788s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__type_support.cpp
+[83.788s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/control_mode_report__rosidl_typesupport_introspection_cpp.hpp
+[83.788s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_report__rosidl_typesupport_introspection_cpp.hpp
+[83.789s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_command__rosidl_typesupport_introspection_cpp.hpp
+[83.789s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/steering_report__type_support.cpp
+[83.789s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/gear_report__type_support.cpp
+[83.789s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/vehicle_kinematic_state__rosidl_typesupport_introspection_cpp.hpp
+[83.789s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/hazard_lights_command__type_support.cpp
+[83.790s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__rosidl_typesupport_introspection_cpp.hpp
+[83.790s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/turn_indicators_command__type_support.cpp
+[83.790s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/msg/detail/engage__type_support.cpp
+[83.790s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv
+[83.791s] -- Up-to-date: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail
+[83.791s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__rosidl_typesupport_introspection_cpp.hpp
+[83.791s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/include/autoware_vehicle_msgs/srv/detail/control_mode_command__type_support.cpp
+[83.791s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.so
+[83.792s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[83.793s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_cpp.so
+[83.793s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__rosidl_typesupport_cpp.so" to ""
+[83.794s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/pythonpath.sh
+[83.794s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/pythonpath.dsv
+[83.795s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/__init__.py
+[83.898s] Compiling '/root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/__init__.py'...
+[83.910s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg
+[83.911s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_velocity_report.py
+[83.912s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_gear_command.py
+[83.913s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_gear_command_s.c
+[83.914s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/__init__.py
+[83.914s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_engage_s.c
+[83.915s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_vehicle_kinematic_state_s.c
+[83.915s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_vehicle_odometry.py
+[83.916s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_turn_indicators_report_s.c
+[83.916s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_hazard_lights_command.py
+[83.917s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_steering_report.py
+[83.918s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_vehicle_kinematic_state.py
+[83.918s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_control_mode_command.py
+[83.921s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_vehicle_control_command.py
+[83.921s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_engage.py
+[83.921s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_control_mode_report.py
+[83.922s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_control_mode_report_s.c
+[83.922s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_hazard_lights_command_s.c
+[83.922s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_steering_report_s.c
+[83.922s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_gear_report_s.c
+[83.922s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_gear_report.py
+[83.922s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_turn_indicators_report.py
+[83.923s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_turn_indicators_command_s.c
+[83.923s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_vehicle_odometry_s.c
+[83.924s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_hazard_lights_report.py
+[83.924s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_hazard_lights_report_s.c
+[83.925s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_velocity_report_s.c
+[83.925s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_turn_indicators_command.py
+[83.927s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_control_mode_command_s.c
+[83.927s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/msg/_vehicle_control_command_s.c
+[83.927s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/srv
+[83.927s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/srv/__init__.py
+[83.928s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/srv/_control_mode_command.py
+[83.928s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/srv/_control_mode_command_s.c
+[83.929s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[83.931s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[83.932s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[83.933s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[83.934s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[83.935s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/python3.8/site-packages/autoware_vehicle_msgs/autoware_vehicle_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[83.936s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__python.so
+[83.937s] -- Set runtime path of "/root/r2ware/install/autoware_vehicle_msgs/lib/libautoware_vehicle_msgs__python.so" to ""
+[83.937s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/ControlModeCommand.idl
+[83.938s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/ControlModeReport.idl
+[83.939s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/Engage.idl
+[83.939s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/GearCommand.idl
+[83.940s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/GearReport.idl
+[83.940s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/HazardLightsCommand.idl
+[83.941s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/HazardLightsReport.idl
+[83.941s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/SteeringReport.idl
+[83.942s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/TurnIndicatorsCommand.idl
+[83.942s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/TurnIndicatorsReport.idl
+[83.943s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VehicleControlCommand.idl
+[83.943s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VehicleKinematicState.idl
+[83.944s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VehicleOdometry.idl
+[83.944s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VelocityReport.idl
+[83.945s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/srv/ControlModeCommand.idl
+[83.945s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/ControlModeCommand.msg
+[83.946s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/ControlModeReport.msg
+[83.946s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/Engage.msg
+[83.947s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/GearCommand.msg
+[83.947s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/GearReport.msg
+[83.948s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/HazardLightsCommand.msg
+[83.948s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/HazardLightsReport.msg
+[83.949s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/SteeringReport.msg
+[83.949s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/TurnIndicatorsCommand.msg
+[83.950s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/TurnIndicatorsReport.msg
+[83.950s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VehicleControlCommand.msg
+[83.951s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VehicleKinematicState.msg
+[83.951s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VehicleOdometry.msg
+[83.952s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/msg/VelocityReport.msg
+[83.952s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/srv/ControlModeCommand.srv
+[83.953s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/srv/ControlModeCommand_Request.msg
+[83.953s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/srv/ControlModeCommand_Response.msg
+[83.954s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/ament_index/resource_index/package_run_dependencies/autoware_vehicle_msgs
+[83.955s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/ament_index/resource_index/parent_prefix_path/autoware_vehicle_msgs
+[83.955s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/ament_prefix_path.sh
+[83.956s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/ament_prefix_path.dsv
+[83.956s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/path.sh
+[83.958s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/environment/path.dsv
+[83.958s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/local_setup.bash
+[83.959s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/local_setup.sh
+[83.959s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/local_setup.zsh
+[83.959s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/local_setup.dsv
+[83.960s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.dsv
+[83.960s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/ament_index/resource_index/packages/autoware_vehicle_msgs
+[83.961s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_generator_cExport.cmake
+[83.961s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_generator_cExport-noconfig.cmake
+[83.962s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[83.962s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[83.963s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_cExport.cmake
+[83.963s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[83.964s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_generator_cppExport.cmake
+[83.964s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[83.964s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[83.965s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_cppExport.cmake
+[83.965s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[83.966s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/rosidl_cmake-extras.cmake
+[83.966s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.966s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[83.967s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[83.967s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[83.968s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[83.969s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[83.969s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgsConfig.cmake
+[83.970s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/cmake/autoware_vehicle_msgsConfig-version.cmake
+[83.970s] -- Installing: /root/r2ware/install/autoware_vehicle_msgs/share/autoware_vehicle_msgs/package.xml
+[83.981s] Invoked command in '/root/r2ware/build/autoware_vehicle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_planning_msgs/lib:/root/yahboomcar_ros2_ws/software/orbslam2/Pangolin-0.6/build/src/:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/DBoW2/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/Thirdparty/g2o/lib:/root/yahboomcar_ros2_ws/software/orbslam2/ORB_SLAM2-master/lib:/root/r2ware/install/autoware_common_msgs/lib:/root/r2ware/install/autoware_auto_system_msgs/lib:/root/r2ware/install/autoware_auto_mapping_msgs/lib:/root/r2ware/install/autoware_auto_geometry_msgs/lib:/root/r2ware/install/autoware_auto_control_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs/lib:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera/lib:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /root/r2ware/build/autoware_vehicle_msgs

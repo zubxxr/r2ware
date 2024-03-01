@@ -1,7 +1,12 @@
 #!/bin/bash
 xhost + && \
 
-# Check if container with the name "r2-container" already exists and remove it
+# Check if the container "r2-container" is running
+if [ "$(docker ps -q -f name=r2-container)" ]; then
+    docker stop r2-container
+fi
+
+# Check if the container "r2-container" exists (running or stopped)
 if [ "$(docker ps -aq -f name=r2-container)" ]; then
     docker rm r2-container
 fi

@@ -1,0 +1,8 @@
+{
+  "package_name": "autoware_system_msgs",
+  "non_idl_tuples": [
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_system_msgs:msg/AutowareState.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_system_msgs:msg/HazardStatus.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_system_msgs:msg/HazardStatusStamped.msg"
+  ]
+}

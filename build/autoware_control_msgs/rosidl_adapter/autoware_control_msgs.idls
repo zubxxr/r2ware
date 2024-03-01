@@ -1,0 +1,4 @@
+/root/r2ware/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Control.idl
+/root/r2ware/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/ControlHorizon.idl
+/root/r2ware/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Lateral.idl
+/root/r2ware/build/autoware_control_msgs/rosidl_adapter/autoware_control_msgs:msg/Longitudinal.idl

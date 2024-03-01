@@ -1,0 +1,2 @@
+/root/r2ware/build/autoware_sensing_msgs/rosidl_adapter/autoware_sensing_msgs:msg/GnssInsOrientation.idl
+/root/r2ware/build/autoware_sensing_msgs/rosidl_adapter/autoware_sensing_msgs:msg/GnssInsOrientationStamped.idl

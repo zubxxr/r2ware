@@ -1,0 +1,20 @@
+{
+  "package_name": "tier4_system_msgs",
+  "non_idl_tuples": [
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/AutowareState.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/DiagnosticGraph.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/DiagnosticLink.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/DiagnosticNode.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/OperationModeAvailability.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/EmergencyState.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/EmergencyStateStamped.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/HazardStatus.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/HazardStatusStamped.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/ServiceLog.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/ModeChangeAvailable.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:msg/MrmBehaviorStatus.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:srv/OperateMrm.srv",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:srv/ChangeOperationMode.srv",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_system_msgs:srv/ChangeAutowareControl.srv"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "package_name": "tier4_control_msgs",
+  "non_idl_tuples": [
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:msg/GateMode.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:msg/ExternalCommandSelectorMode.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:srv/ExternalCommandSelect.srv",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:msg/IsStartRequested.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:msg/IsPaused.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:srv/SetPause.srv",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:msg/IsStopped.msg",
+    "/root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs:srv/SetStop.srv"
+  ]
+}

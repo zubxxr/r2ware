@@ -1,0 +1,9 @@
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/ObjectClassification.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedObject.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedObjectKinematics.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedObjects.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/PredictedPath.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/Shape.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/TrafficSignalElement.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/TrafficSignal.idl
+/root/r2ware/build/autoware_perception_msgs/rosidl_adapter/autoware_perception_msgs:msg/TrafficSignalArray.idl

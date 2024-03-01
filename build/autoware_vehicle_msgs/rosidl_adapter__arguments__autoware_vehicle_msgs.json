@@ -1,0 +1,20 @@
+{
+  "package_name": "autoware_vehicle_msgs",
+  "non_idl_tuples": [
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/ControlModeCommand.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/ControlModeReport.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/Engage.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/GearCommand.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/GearReport.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/HazardLightsCommand.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/HazardLightsReport.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/SteeringReport.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/TurnIndicatorsCommand.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/TurnIndicatorsReport.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/VehicleControlCommand.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/VehicleKinematicState.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/VehicleOdometry.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:msg/VelocityReport.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_vehicle_msgs:srv/ControlModeCommand.srv"
+  ]
+}

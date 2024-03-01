@@ -1,0 +1,6 @@
+{
+  "package_name": "autoware_common_msgs",
+  "non_idl_tuples": [
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_common_msgs:msg/ResponseStatus.msg"
+  ]
+}

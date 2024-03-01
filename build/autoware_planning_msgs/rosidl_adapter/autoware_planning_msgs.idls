@@ -1,0 +1,10 @@
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletPrimitive.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletRoute.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/LaneletSegment.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PoseWithUuidStamped.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Trajectory.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/TrajectoryPoint.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/Path.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathPoint.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathWithLaneId.idl
+/root/r2ware/build/autoware_planning_msgs/rosidl_adapter/autoware_planning_msgs:msg/PathPointWithLaneId.idl

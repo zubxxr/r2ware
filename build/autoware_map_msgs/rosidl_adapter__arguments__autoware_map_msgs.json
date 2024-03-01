@@ -1,0 +1,14 @@
+{
+  "package_name": "autoware_map_msgs",
+  "non_idl_tuples": [
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:msg/AreaInfo.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:msg/LaneletMapBin.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellWithID.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellMetaData.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:msg/PointCloudMapCellMetaDataWithID.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:msg/PointCloudMapMetaData.msg",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:srv/GetPartialPointCloudMap.srv",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:srv/GetDifferentialPointCloudMap.srv",
+    "/root/r2ware/src/autoware_dependencies/core/autoware_msgs/autoware_map_msgs:srv/GetSelectedPointCloudMap.srv"
+  ]
+}

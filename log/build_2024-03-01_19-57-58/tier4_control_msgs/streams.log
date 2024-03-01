@@ -1,0 +1,309 @@
+[0.091s] Invoking command in '/root/r2ware/build/tier4_control_msgs': AMENT_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/r2ware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs -DCMAKE_INSTALL_PREFIX=/root/r2ware/install/tier4_control_msgs
+[0.306s] -- The C compiler identification is GNU 9.4.0
+[0.467s] -- The CXX compiler identification is GNU 9.4.0
+[0.485s] -- Check for working C compiler: /usr/bin/cc
+[0.776s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.778s] -- Detecting C compiler ABI info
+[1.079s] -- Detecting C compiler ABI info - done
+[1.101s] -- Detecting C compile features
+[1.101s] -- Detecting C compile features - done
+[1.107s] -- Check for working CXX compiler: /usr/bin/c++
+[1.413s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.414s] -- Detecting CXX compiler ABI info
+[1.688s] -- Detecting CXX compiler ABI info - done
+[1.711s] -- Detecting CXX compile features
+[1.712s] -- Detecting CXX compile features - done
+[1.730s] -- Found ament_cmake_auto: 0.9.11 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.858s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.859s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.942s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.441s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.528s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.174s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.539s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.224s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.313s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.331s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.429s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.432s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.435s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.435s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.520s] -- Found PythonExtra: .so  
+[5.788s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.011s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.018s] -- Added test 'lint_cmake' to check CMake code style
+[6.023s] -- Added test 'xmllint' to check XML markup files
+[6.042s] -- Configuring done
+[6.199s] -- Generating done
+[6.207s] -- Build files have been written to: /root/r2ware/build/tier4_control_msgs
+[6.259s] Invoked command in '/root/r2ware/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/r2ware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/r2ware/src/autoware_dependencies/universe/external/tier4_autoware_msgs/tier4_control_msgs -DCMAKE_INSTALL_PREFIX=/root/r2ware/install/tier4_control_msgs
+[6.262s] Invoking command in '/root/r2ware/build/tier4_control_msgs': AMENT_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/r2ware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/r2ware/build/tier4_control_msgs -- -j8 -l8
+[7.589s] [35m[1mScanning dependencies of target tier4_control_msgs__cpp[0m
+[7.589s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.733s] [  1%] Built target tier4_control_msgs__cpp
+[8.781s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.491s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_generator_c[0m
+[11.539s] [  3%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/gate_mode__functions.c.o[0m
+[11.663s] [  4%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_paused__functions.c.o[0m
+[11.807s] [  5%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/set_pause__functions.c.o[0m
+[11.964s] [  6%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_stopped__functions.c.o[0m
+[12.111s] [  8%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/set_stop__functions.c.o[0m
+[12.272s] [  9%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/is_start_requested__functions.c.o[0m
+[12.405s] [ 10%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/srv/detail/external_command_select__functions.c.o[0m
+[12.598s] [ 11%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.c.o[0m
+[12.739s] [ 12%] [32m[1mLinking C shared library libtier4_control_msgs__rosidl_generator_c.so[0m
+[12.858s] [ 12%] Built target tier4_control_msgs__rosidl_generator_c
+[12.917s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.318s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_introspection_cpp[0m
+[14.365s] [ 14%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/gate_mode__type_support.cpp.o[0m
+[15.059s] [ 16%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_start_requested__type_support.cpp.o[0m
+[15.741s] [ 17%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_paused__type_support.cpp.o[0m
+[16.414s] [ 18%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/set_pause__type_support.cpp.o[0m
+[17.127s] [ 19%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/is_stopped__type_support.cpp.o[0m
+[17.936s] [ 20%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/set_stop__type_support.cpp.o[0m
+[18.655s] [ 21%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/srv/detail/external_command_select__type_support.cpp.o[0m
+[19.518s] [ 22%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.cpp.o[0m
+[20.213s] [ 24%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.424s] [ 24%] Built target tier4_control_msgs__rosidl_typesupport_introspection_cpp
+[20.466s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.499s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_c[0m
+[21.543s] [ 26%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/gate_mode__type_support.cpp.o[0m
+[21.637s] [ 27%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_paused__type_support.cpp.o[0m
+[21.733s] [ 28%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/set_pause__type_support.cpp.o[0m
+[21.831s] [ 29%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_stopped__type_support.cpp.o[0m
+[21.921s] [ 31%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/set_stop__type_support.cpp.o[0m
+[22.028s] [ 32%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/is_start_requested__type_support.cpp.o[0m
+[22.115s] [ 33%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/srv/external_command_select__type_support.cpp.o[0m
+[22.210s] [ 34%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/tier4_control_msgs/msg/external_command_selector_mode__type_support.cpp.o[0m
+[22.298s] [ 35%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_c.so[0m
+[22.408s] [ 35%] Built target tier4_control_msgs__rosidl_typesupport_c
+[22.446s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[23.974s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_introspection_c[0m
+[24.023s] [ 37%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/gate_mode__type_support.c.o[0m
+[24.109s] [ 39%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/set_pause__type_support.c.o[0m
+[24.204s] [ 40%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_stopped__type_support.c.o[0m
+[24.293s] [ 41%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/set_stop__type_support.c.o[0m
+[24.389s] [ 42%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_paused__type_support.c.o[0m
+[24.477s] [ 43%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/is_start_requested__type_support.c.o[0m
+[24.567s] [ 44%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/srv/detail/external_command_select__type_support.c.o[0m
+[24.666s] [ 45%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.c.o[0m
+[24.757s] [ 47%] [32m[1mLinking C shared library libtier4_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[24.851s] [ 47%] Built target tier4_control_msgs__rosidl_typesupport_introspection_c
+[24.889s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[25.932s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_cpp[0m
+[25.977s] [ 49%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/gate_mode__type_support.cpp.o[0m
+[26.644s] [ 50%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_stopped__type_support.cpp.o[0m
+[27.314s] [ 51%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/set_stop__type_support.cpp.o[0m
+[28.002s] [ 52%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/set_pause__type_support.cpp.o[0m
+[28.667s] [ 54%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_paused__type_support.cpp.o[0m
+[29.325s] [ 55%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/is_start_requested__type_support.cpp.o[0m
+[29.984s] [ 56%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/srv/external_command_select__type_support.cpp.o[0m
+[30.650s] [ 57%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tier4_control_msgs/msg/external_command_selector_mode__type_support.cpp.o[0m
+[31.316s] [ 58%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_cpp.so[0m
+[31.425s] [ 58%] Built target tier4_control_msgs__rosidl_typesupport_cpp
+[31.460s] [ 59%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[33.003s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[33.065s] [ 60%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/gate_mode__type_support.cpp.o[0m
+[34.031s] [ 62%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/set_stop__type_support.cpp.o[0m
+[35.042s] [ 63%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_stopped__type_support.cpp.o[0m
+[36.113s] [ 64%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/set_pause__type_support.cpp.o[0m
+[37.118s] [ 65%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_paused__type_support.cpp.o[0m
+[38.084s] [ 66%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/is_start_requested__type_support.cpp.o[0m
+[39.048s] [ 67%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/srv/detail/dds_fastrtps/external_command_select__type_support.cpp.o[0m
+[40.046s] [ 68%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tier4_control_msgs/msg/detail/dds_fastrtps/external_command_selector_mode__type_support.cpp.o[0m
+[41.006s] [ 70%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[41.220s] [ 70%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_cpp
+[41.256s] [ 71%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[42.798s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_fastrtps_c[0m
+[42.868s] [ 72%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/gate_mode__type_support_c.cpp.o[0m
+[43.689s] [ 73%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/set_stop__type_support_c.cpp.o[0m
+[44.551s] [ 74%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_stopped__type_support_c.cpp.o[0m
+[45.389s] [ 75%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/set_pause__type_support_c.cpp.o[0m
+[46.226s] [ 77%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_paused__type_support_c.cpp.o[0m
+[47.052s] [ 78%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/is_start_requested__type_support_c.cpp.o[0m
+[47.891s] [ 79%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/srv/detail/external_command_select__type_support_c.cpp.o[0m
+[48.739s] [ 80%] [32mBuilding CXX object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support_c.cpp.o[0m
+[49.559s] [ 81%] [32m[1mLinking CXX shared library libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[49.764s] [ 81%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_c
+[49.798s] [35m[1mScanning dependencies of target tier4_control_msgs[0m
+[49.841s] [ 81%] Built target tier4_control_msgs
+[49.876s] [35m[1mScanning dependencies of target tier4_control_msgs__py[0m
+[49.911s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[52.816s] [ 82%] Built target tier4_control_msgs__py
+[52.851s] [35m[1mScanning dependencies of target tier4_control_msgs__python[0m
+[52.935s] [ 83%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_gate_mode_s.c.o[0m
+[53.153s] [ 85%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/srv/_set_stop_s.c.o[0m
+[53.387s] [ 86%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_stopped_s.c.o[0m
+[53.611s] [ 87%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/srv/_set_pause_s.c.o[0m
+[53.831s] [ 88%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_paused_s.c.o[0m
+[54.045s] [ 89%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_is_start_requested_s.c.o[0m
+[54.257s] [ 90%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/srv/_external_command_select_s.c.o[0m
+[54.482s] [ 91%] [32mBuilding C object CMakeFiles/tier4_control_msgs__python.dir/rosidl_generator_py/tier4_control_msgs/msg/_external_command_selector_mode_s.c.o[0m
+[54.684s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/libtier4_control_msgs__python.so[0m
+[54.802s] [ 93%] Built target tier4_control_msgs__python
+[54.834s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[54.887s] [ 94%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[55.157s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[55.267s] [ 95%] Built target tier4_control_msgs__rosidl_typesupport_introspection_c__pyext
+[55.304s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[55.366s] [ 96%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[55.635s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[55.796s] [ 97%] Built target tier4_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[55.830s] [35m[1mScanning dependencies of target tier4_control_msgs__rosidl_typesupport_c__pyext[0m
+[55.883s] [ 98%] [32mBuilding C object CMakeFiles/tier4_control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tier4_control_msgs/_tier4_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[56.147s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tier4_control_msgs/tier4_control_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[56.259s] [100%] Built target tier4_control_msgs__rosidl_typesupport_c__pyext
+[56.300s] Invoked command in '/root/r2ware/build/tier4_control_msgs' returned '0': AMENT_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/r2ware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/r2ware/build/tier4_control_msgs -- -j8 -l8
+[57.239s] Invoking command in '/root/r2ware/build/tier4_control_msgs': AMENT_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/r2ware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/r2ware/build/tier4_control_msgs
+[65.586s] -- Install configuration: ""
+[65.587s] -- Installing: /root/r2ware/install/tier4_control_msgs/share/ament_index/resource_index/rosidl_interfaces/tier4_control_msgs
+[65.587s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs
+[65.587s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg
+[65.587s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/gate_mode.h
+[65.587s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_start_requested.h
+[65.588s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_stopped.h
+[65.588s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[65.588s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_paused.h
+[65.589s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/external_command_selector_mode.h
+[65.590s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail
+[65.590s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__type_support.h
+[65.590s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__functions.h
+[65.590s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__functions.c
+[65.590s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__struct.h
+[65.591s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.h
+[65.594s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__struct.h
+[65.595s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__type_support.h
+[65.595s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__functions.h
+[65.596s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__struct.h
+[65.596s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__functions.c
+[65.596s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__type_support.h
+[65.596s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__functions.h
+[65.597s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__functions.c
+[65.598s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__struct.h
+[65.598s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__type_support.h
+[65.599s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__struct.h
+[65.602s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__functions.c
+[65.603s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__functions.c
+[65.603s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.h
+[65.603s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__functions.h
+[65.604s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv
+[65.604s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/external_command_select.h
+[65.604s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/set_stop.h
+[65.604s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail
+[65.604s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__struct.h
+[65.605s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__functions.h
+[65.606s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__type_support.h
+[65.606s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__struct.h
+[65.606s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__type_support.h
+[65.606s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__functions.c
+[65.606s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__functions.c
+[65.606s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__struct.h
+[65.607s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__functions.c
+[65.608s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__type_support.h
+[65.608s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__functions.h
+[65.608s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__functions.h
+[65.609s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/set_pause.h
+[65.610s] -- Installing: /root/r2ware/install/tier4_control_msgs/share/tier4_control_msgs/environment/library_path.sh
+[65.614s] -- Installing: /root/r2ware/install/tier4_control_msgs/share/tier4_control_msgs/environment/library_path.dsv
+[65.614s] -- Installing: /root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_c.so
+[65.615s] -- Set runtime path of "/root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_generator_c.so" to ""
+[65.615s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs
+[65.615s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg
+[65.615s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[65.615s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail
+[65.615s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv
+[65.616s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_c.h
+[65.616s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_fastrtps_c.h
+[65.617s] -- Installing: /root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so
+[65.618s] -- Set runtime path of "/root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[65.618s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs
+[65.619s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg
+[65.635s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[65.635s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail
+[65.635s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[65.635s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_fastrtps_cpp.hpp
+[65.635s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_fastrtps_cpp.hpp
+[65.635s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[65.635s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/dds_fastrtps
+[65.636s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_fastrtps_cpp.hpp
+[65.636s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv
+[65.636s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail
+[65.636s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[65.636s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/dds_fastrtps
+[65.637s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_fastrtps_cpp.hpp
+[65.637s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_fastrtps_cpp.hpp
+[65.637s] -- Installing: /root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[65.638s] -- Set runtime path of "/root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[65.638s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs
+[65.638s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg
+[65.638s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[65.638s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail
+[65.638s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__rosidl_typesupport_introspection_c.h
+[65.638s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__type_support.c
+[65.638s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__rosidl_typesupport_introspection_c.h
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__type_support.c
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__rosidl_typesupport_introspection_c.h
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__rosidl_typesupport_introspection_c.h
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__type_support.c
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__type_support.c
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__rosidl_typesupport_introspection_c.h
+[65.639s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__type_support.c
+[65.639s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv
+[65.640s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail
+[65.640s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__rosidl_typesupport_introspection_c.h
+[65.640s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__type_support.c
+[65.640s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__type_support.c
+[65.640s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__rosidl_typesupport_introspection_c.h
+[65.640s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__rosidl_typesupport_introspection_c.h
+[65.640s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__type_support.c
+[65.647s] -- Installing: /root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_c.so
+[65.648s] -- Set runtime path of "/root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[65.648s] -- Installing: /root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_c.so
+[65.648s] -- Set runtime path of "/root/r2ware/install/tier4_control_msgs/lib/libtier4_control_msgs__rosidl_typesupport_c.so" to ""
+[65.648s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs
+[65.648s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/external_command_selector_mode.hpp
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_stopped.hpp
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_paused.hpp
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/gate_mode.hpp
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/is_start_requested.hpp
+[65.649s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__struct.hpp
+[65.649s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__struct.hpp
+[65.650s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__traits.hpp
+[65.650s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__builder.hpp
+[65.650s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__struct.hpp
+[65.650s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__traits.hpp
+[65.653s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__traits.hpp
+[65.655s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__traits.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__builder.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__builder.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_start_requested__traits.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/gate_mode__struct.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_paused__builder.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/external_command_selector_mode__builder.hpp
+[65.656s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/msg/detail/is_stopped__struct.hpp
+[65.656s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv
+[65.657s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/set_stop.hpp
+[65.657s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/set_pause.hpp
+[65.657s] -- Up-to-date: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail
+[65.657s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__traits.hpp
+[65.657s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__builder.hpp
+[65.657s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__traits.hpp
+[65.658s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__builder.hpp
+[65.658s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__traits.hpp
+[65.658s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_pause__struct.hpp
+[65.658s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__struct.hpp
+[65.658s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/external_command_select__builder.hpp
+[65.659s] -- Installing: /root/r2ware/install/tier4_control_msgs/include/tier4_control_msgs/srv/detail/set_stop__struct.hpp
+[65.664s] Invoked command in '/root/r2ware/build/tier4_control_msgs' returned '-2': AMENT_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/r2ware/install/autoware_common_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_slam:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_point:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_base_node:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_KCFTracker:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_web_savmap_interfaces:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/ydlidar_ros2_driver:/root/yahboomcar_ros2_ws/software/library_ws/install/web_video_server:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_local_planner:/root/yahboomcar_ros2_ws/software/library_ws/install/teb_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/sllidar_ros2:/root/yahboomcar_ros2_ws/software/library_ws/install/slam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/ros2_orbslam:/root/yahboomcar_ros2_ws/software/library_ws/install/robot_localization:/root/yahboomcar_ros2_ws/software/library_ws/install/openslam_gmapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_mapping:/root/yahboomcar_ros2_ws/software/library_ws/install/octomap_server:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter:/root/yahboomcar_ros2_ws/software/library_ws/install/costmap_converter_msgs:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera:/root/yahboomcar_ros2_ws/software/library_ws/install/astra_camera_msgs:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_voice_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_visual:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_nav:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_multi:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_mediapipe:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_linefollow:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_laser:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description_x1:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_description:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_ctrl:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_bringup:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboomcar_astra:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/yahboom_app_save_map:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/robot_pose_publisher:/root/yahboomcar_ros2_ws/yahboomcar_ws/install/laserscan_to_point_pulisher:/opt/ros/foxy LD_LIBRARY_PATH=/root/r2ware/install/autoware_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/r2ware/install/autoware_common_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/r2ware/build/tier4_control_msgs
