@@ -1,0 +1,27 @@
+repositories:
+  # AUTOWARE MESSAGES
+  autoware_dependencies/core/autoware_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: main
+  autoware_dependencies/core/autoware_adapi_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+    version: main
+  autoware_dependencies/core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
+    type: git
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: tier4/main
+  autoware_dependencies/universe/external/tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: tier4/universe
+    
+  # CONTROL
+  control/r2ware_control:
+    type: git
+    url: https://github.com/ahmaad-ansari/r2ware_control.git
+    version: main
+    
+  # SENSING
+  # LAUNCH
