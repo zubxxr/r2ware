@@ -9,22 +9,21 @@ git clone https://github.com/ahmaad-ansari/r2ware.git ~/
 cd r2ware
 ```
 
+## Initializing Workspace
+
+Create the `src` directory and import the necessary repositories:
+
+```bash
+mkdir src
+vcs import src < r2ware.repos
+```
+
 ## Setting Up Docker
 
 Run the provided script to set up Docker for the R2Ware environment:
 
 ```bash
 ./run_docker.sh
-```
-
-## Initializing Workspace
-
-Create the `src` directory and import the necessary repositories:
-
-```bash
-cd r2ware
-mkdir src
-vcs import src < r2ware.repos
 ```
 
 ## Installing Dependencies
