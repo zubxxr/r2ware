@@ -24,6 +24,7 @@ Run the provided script to set up Docker for the R2Ware environment:
 
 ```bash
 ./run_docker.sh
+cd ~/r2ware
 ```
 
 ## Installing Dependencies

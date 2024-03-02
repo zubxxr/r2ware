@@ -129,9 +129,9 @@ export RPLIDAR_TYPE=4ROS  	# a1, s2, 4ROS
 export CAMERA_TYPE=astrapro  	# astrapro, astraplus
 
 echo -e "\n\033[1;34m============== Welcome to R2Ware Terminal ==============\033[0m"
-echo -e "\033[1;33mAuthors:\033[0m Capstone Group 3"
+echo -e "\033[1;33mAuthors:\033[0m Capstone Group 5"
 echo -e "\033[1;33mVersion:\033[0m 1.0"
-echo -e "\033[1;33mLast Modified:\033[0m March 1, 2024\033[0m"
+echo -e "\033[1;33mLast Modified:\033[0m March 2, 2024\033[0m"
 echo -e "\033[1;34m--------------------------------------------------------\033[0m"
 
 
