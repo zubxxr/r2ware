@@ -31,6 +31,8 @@ docker run -it \
   -v /home/jetson/r2ware:/root/r2ware \
   -v "$ASTRA_DEPTH:$ASTRA_DEPTH" \
   -v "$ASTRA_UVC:$ASTRA_UVC" \
+  --device=/dev/astradepth \
+  --device=/dev/astrauvc \
   --device=/dev/video0 \
   --device=/dev/myserial \
   --device=/dev/rplidar \
