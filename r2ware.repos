@@ -20,4 +20,13 @@ repositories:
     version: main
     
   # SENSING
+  sensing/r2ware_sensing:
+    type: git
+    url: https://github.com/ahmaad-ansari/r2ware_sensing.git
+    version: main
+    
   # LAUNCH
+  launcher/r2ware_launch:
+    type: git
+    url: https://github.com/ahmaad-ansari/r2ware_launch.git
+    version: main
