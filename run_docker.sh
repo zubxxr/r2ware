@@ -21,7 +21,7 @@ ASTRA_DEPTH=$(readlink -f /dev/astradepth)
 ASTRA_UVC=$(readlink -f /dev/astrauvc)
 
 docker run -it \
-  --network autoware_r2_bridge \
+  --net=host \
   --env="DISPLAY" \
   --env="QT_X11_NO_MITSHM=1" \
   -v /tmp/.X11-unix:/tmp/.X11-unix \

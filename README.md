@@ -40,7 +40,18 @@ rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 Build the R2Ware workspace using `colcon`:
 
 ```bash
-colcon build
+colcon build --symlink-install
+```
+
+Or build specific packages
+```bash
+colcon build --symlink-install --packages-select r2ware_control
+```
+```bash
+colcon build --symlink-install --packages-select r2ware_sensing
+```
+```bash
+colcon build --symlink-install --packages-select r2ware_launch
 ```
 
 Now, your R2Ware workspace is set up and ready for use. Refer to specific documentation for further details on running and utilizing R2Ware functionalities.
