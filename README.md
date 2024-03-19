@@ -1,5 +1,20 @@
 # R2Ware
 
+## Multi-Machine Communication
+
+Run the following commands on the local machine to enable communication with a ground station on the same network:
+
+```bash
+sudo ip link set lo multicast on
+sudo ufw disable
+```
+
+You can check the status of the firewall with the following command:
+
+```bash
+sudo ufw status
+```
+
 ## Getting Started
 
 Clone the R2Ware repository and navigate into the project directory:
@@ -52,6 +67,15 @@ colcon build --symlink-install --packages-select r2ware_sensing
 ```
 ```bash
 colcon build --symlink-install --packages-select r2ware_launch
+```
+
+## Multi-Machine Communication
+
+Run the following commands while inside the container to enable communication with a ground station on the same network:
+
+```bash
+apt update
+apt install -y ros-foxy-fastrtps
 ```
 
 Now, your R2Ware workspace is set up and ready for use. Refer to specific documentation for further details on running and utilizing R2Ware functionalities.
