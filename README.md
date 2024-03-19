@@ -85,7 +85,7 @@ Run the following commands on the ground station running Autoware:
 ```bash
 sudo ufw disable
 sudo ip link set lo multicast on
-sudo apt-install -y ros-humble-fastrps
+sudo apt install -y ros-humble-fastrtps
 ```
 
 Set the followiwng environment variablesto enable ROS 2 communication:
@@ -94,5 +94,3 @@ Set the followiwng environment variablesto enable ROS 2 communication:
 export ROS_LOCALHOST_ONLY=0
 export ROS_DOMAIN_ID=32
 ```
-
-Now, your R2Ware workspace is set up and ready for use. Refer to specific documentation for further details on running and utilizing R2Ware functionalities.
