@@ -2,7 +2,7 @@
 
 ## R2: Multi-Machine Communication
 
-Run the following commands on the R2's local machine to enable communication with a ground station on the same network:
+Run the following commands on the R2's local machine to enable communication with a ground station **on the same network**:
 
 ```bash
 sudo ip link set lo multicast on
@@ -88,9 +88,17 @@ sudo ip link set lo multicast on
 sudo apt install -y ros-humble-fastrtps
 ```
 
-Set the followiwng environment variablesto enable ROS 2 communication:
+Set the followiwng environment variables to enable ROS 2 communication:
 
 ```bash
 export ROS_LOCALHOST_ONLY=0
 export ROS_DOMAIN_ID=32
+```
+
+Once you have reached this step, you can test the communication between the two machines by running one command on each machine:
+```bash
+ros2 run demo_nodes_cpp listener
+```
+```bash
+ros2 run demo_nodes_cpp talker
 ```
