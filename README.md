@@ -55,7 +55,7 @@ rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 Build the R2Ware workspace using `colcon`:
 
 ```bash
-colcon build --symlink-install
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
 Or build specific packages
@@ -67,6 +67,9 @@ colcon build --symlink-install --packages-select r2ware_sensing
 ```
 ```bash
 colcon build --symlink-install --packages-select r2ware_launch
+```
+```bash
+colcon build --symlink-install --packages-select r2ware_status
 ```
 
 ## R2: Multi-Machine Communication
@@ -101,4 +104,15 @@ ros2 run demo_nodes_cpp listener
 ```
 ```bash
 ros2 run demo_nodes_cpp talker
+```
+## Autoware Communication
+
+Once you have ensured proper communication, you can run autoware on your ground station and r2ware on the local machine.
+
+```bash
+ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=r2_vehicle sensor_model:=r2_sensor_kit map_path:=$HOME/autoware_map/nishishinjuku_autoware_map/
+```
+
+```bash
+ros2 launch r2ware_launch r2ware_launch.py 
 ```
