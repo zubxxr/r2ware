@@ -20,7 +20,8 @@ sudo ufw status
 Clone the R2Ware repository and navigate into the project directory:
 
 ```bash
-git clone https://github.com/ahmaad-ansari/r2ware.git ~/
+cd ~/
+git clone https://github.com/ahmaad-ansari/r2ware.git
 cd r2ware
 ```
 
@@ -35,10 +36,10 @@ vcs import src < r2ware.repos
 
 ## Setting Up Docker
 
-Run the provided script to set up Docker for the R2Ware environment:
+Run the provided script to set up Docker for the R2Ware environment. You can optionally specify the `vlp32` option to configure the Docker container for VLP32 usage:
 
 ```bash
-./run_docker.sh
+./run_docker.sh vlp32
 cd ~/r2ware
 ```
 
@@ -47,7 +48,11 @@ cd ~/r2ware
 Install ROS dependencies using `rosdep`:
 
 ```bash
+apt update
+rosdep update
 rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+rosdep install -y -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO
+
 ```
 
 ## Building the Workspace
