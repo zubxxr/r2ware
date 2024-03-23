@@ -12,16 +12,6 @@ repositories:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
     version: tier4/main
-  
-  # NEBULA
-  sensing/external/nebula:
-    type: git
-    url: https://github.com/tier4/nebula.git
-    version: main
-  sensing/external/transport_drivers:
-    type: git
-    url: https://github.com/MapIV/transport_drivers.git
-    version: boost
     
   # CONTROL
   control/r2ware_control:
