@@ -51,7 +51,6 @@ Install ROS dependencies using `rosdep`:
 apt update
 rosdep update
 rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
-rosdep install -y -r --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 ```
 
