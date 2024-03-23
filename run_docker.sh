@@ -43,7 +43,7 @@ if [[ "$1" == "vlp32" ]]; then
         -p 9090:9090 \
         -p 8888:8888 \
         --name r2-container \
-        yahboomtechnology/ros-foxy:4.0.0 /bin/bash
+        yahboomtechnology/ros-foxy/custom:4.0.0 /bin/bash
 else
     # Run default Docker command
     docker run -it \
@@ -67,5 +67,5 @@ else
         -p 9090:9090 \
         -p 8888:8888 \
         --name r2-container \
-        yahboomtechnology/ros-foxy:4.0.0 /bin/bash
+        yahboomtechnology/ros-foxy/custom:4.0.0 /bin/bash
 fi

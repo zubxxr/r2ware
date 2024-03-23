@@ -190,3 +190,25 @@ This section outlines the setup process for enabling multi-machine communication
    ```bash
    ros2 run demo_nodes_cpp talker
    ```
+
+## System Deployment
+
+To run the entire system, follow these steps:
+
+1. **Run on Local Machine:**
+
+   ```bash
+   ros2 launch nebula_ros nebula_launch.py sensor_model:=VLP32
+   ```
+
+2. **Run in Docker Container:**
+
+   ```bash
+   ros2 launch r2ware_launch r2ware_launch.py
+   ```
+
+3. **Run on Ground Station:**
+
+   ```bash
+   [...]
+   ```

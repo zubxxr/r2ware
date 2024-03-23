@@ -16,23 +16,23 @@ repositories:
   # CONTROL
   control/r2ware_control:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_control.git
+    url: git@github.com:ahmaad-ansari/r2ware_control.git
     version: main
     
   # SENSING
   sensing/r2ware_sensing:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_sensing.git
+    url: git@github.com:ahmaad-ansari/r2ware_sensing.git
     version: main
     
   # LAUNCHER
   launcher/r2ware_launch:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_launch.git
+    url: git@github.com:ahmaad-ansari/r2ware_launch.git
     version: main
 
   # STATUS
   status/r2ware_status:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_status.git
+    url: git@github.com:ahmaad-ansari/r2ware_status.git
     version: main
