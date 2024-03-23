@@ -124,20 +124,13 @@ fi
 alias python=python3
 export ROS_DOMAIN_ID=32
 
-export ROBOT_TYPE=r2  		# r2, x1, x3
-export RPLIDAR_TYPE=4ROS  	# a1, s2, 4ROS
-export CAMERA_TYPE=astrapro  	# astrapro, astraplus
-
-echo -e "\n\033[1;34m============== Welcome to R2Ware Terminal ==============\033[0m"
-echo -e "\033[1;33mAuthors:\033[0m Capstone Group 5"
-echo -e "\033[1;33mVersion:\033[0m 1.0"
-echo -e "\033[1;33mLast Modified:\033[0m March 2, 2024\033[0m"
-echo -e "\033[1;34m--------------------------------------------------------\033[0m"
-
-
-echo -e "\033[1;33mROS_DOMAIN_ID:\033[0m \033[32m$ROS_DOMAIN_ID\033[0m" 
-echo -e "\033[1;33mROBOT TYPE:\033[0m \033[32m$ROBOT_TYPE\033[0m \033[1;34m | \033[0m \033[1;33mLIDAR:\033[0m \033[32m$RPLIDAR_TYPE\033[0m \033[1;34m | \033[0m \033[1;33mCAMERA:\033[0m \033[32m$CAMERA_TYPE\033[0m"
-echo -e "\033[1;34m--------------------------------------------------------\033[0m"
+export ROBOT_TYPE=r2            # r2, x1, x3
+export RPLIDAR_TYPE=4ROS          # a1, s2, 4ROS
+export CAMERA_TYPE=astrapro    # astrapro, astraplus
+echo "--------------------------------------------------------"
+echo -e "ROS_DOMAIN_ID: \033[32m$ROS_DOMAIN_ID\033[0m" 
+echo -e "my_robot_type: \033[32m$ROBOT_TYPE\033[0m | my_lidar: \033[32m$RPLIDAR_TYPE\033[0m | my_camera: \033[32m$CAMERA_TYPE\033[0m"
+echo "--------------------------------------------------------"
 
 #colcon_cd
 source /usr/share/colcon_cd/function/colcon_cd.sh

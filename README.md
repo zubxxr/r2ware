@@ -1,20 +1,5 @@
 # R2Ware
 
-## R2: Multi-Machine Communication
-
-Run the following commands on the R2's local machine to enable communication with a ground station **on the same network**:
-
-```bash
-sudo ip link set lo multicast on
-sudo ufw disable
-```
-
-You can check the status of the firewall with the following command:
-
-```bash
-sudo ufw status
-```
-
 ## Getting Started
 
 Clone the R2Ware repository and navigate into the project directory:
@@ -76,16 +61,105 @@ colcon build --symlink-install --packages-select r2ware_launch
 colcon build --symlink-install --packages-select r2ware_status
 ```
 
+## Teir IV Nebula Sensor Driver
+
+This guide provides instructions for setting up the Nebula Driver for VLP32 3D LiDAR.
+
+### Prerequisites
+
+Before setting up the Nebula Driver, ensure you have the following prerequisites installed:
+
+- ROS (Galactic distribution)
+- Velodyne ROS package
+
+You can install the Velodyne ROS package using the following command:
+
+```bash
+sudo apt-get install ros-galactic-velodyne
+```
+
+### Setup Steps
+
+1. **Create Workspace:**
+
+   Create a workspace directory for the Nebula Sensor Driver:
+
+   ```bash
+   mkdir -p ~/nebula_sensor_driver/src
+   cd ~/nebula_sensor_driver
+   ```
+
+2. **Clone Nebula Repository:**
+
+   Clone the Nebula repository into the `src` directory:
+
+   ```bash
+   git clone https://github.com/tier4/nebula.git src
+   ```
+
+3. **Import Dependencies:**
+
+   Import the dependencies using `vcs`:
+
+   ```bash
+   vcs import src < src/build_depends.repos
+   ```
+
+4. **Install Dependencies:**
+
+   Install ROS dependencies using `rosdep`:
+
+   ```bash
+   rosdep install --from-paths src --ignore-src -y -r
+   ```
+
+5. **Build Nebula:**
+
+   Build the Nebula driver using `colcon`:
+
+   ```bash
+   colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+   ```
+
+### Usage
+
+After successfully building the Nebula Driver, you can use it to interface with the Nebula 3DLiDAR sensor in ROS environments.
+
+### Additional Notes
+
+- Make sure to source your ROS workspace (`source ~/nebula_sensor_driver/install/setup.bash`) before using the Nebula Driver.
+
+- Refer to the documentation provided by the [Nebula repository](https://github.com/tier4/nebula) for further configuration and usage instructions.
+
+
 ## R2: Multi-Machine Communication
+
+### R2 Machine
+
+#### Local
+
+Run the following commands on the R2's local machine to enable communication with a ground station **on the same network**:
+
+```bash
+sudo ip link set lo multicast on
+sudo ufw disable
+```
+
+You can check the status of the firewall with the following command:
+
+```bash
+sudo ufw status
+```
+
+#### Docker Container
 
 Run the following commands while inside the R2's Docker container to enable communication with a ground station on the same network:
 
 ```bash
-apt update
 apt install -y ros-foxy-fastrtps
 ```
 
-## Ground Station: Multi-Machine Communication
+### Ground Station
 
 Run the following commands on the ground station running Autoware:
 
@@ -102,21 +176,12 @@ export ROS_LOCALHOST_ONLY=0
 export ROS_DOMAIN_ID=32
 ```
 
+### Test Connection
+
 Once you have reached this step, you can test the communication between the two machines by running one command on each machine:
 ```bash
 ros2 run demo_nodes_cpp listener
 ```
 ```bash
 ros2 run demo_nodes_cpp talker
-```
-## Autoware Communication
-
-Once you have ensured proper communication, you can run autoware on your ground station and r2ware on the local machine.
-
-```bash
-ros2 launch autoware_launch e2e_simulator.launch.xml vehicle_model:=r2_vehicle sensor_model:=r2_sensor_kit map_path:=$HOME/autoware_map/nishishinjuku_autoware_map/
-```
-
-```bash
-ros2 launch r2ware_launch r2ware_launch.py 
 ```
