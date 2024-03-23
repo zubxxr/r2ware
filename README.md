@@ -62,6 +62,68 @@
    ```bash
    colcon build --symlink-install --packages-select r2ware_status
    ```
+## Teir IV Nebula Sensor Driver
+
+This guide provides instructions for setting up the Nebula Driver for VLP32 3D LiDAR.
+
+### Prerequisites
+
+Before setting up the Nebula Driver, ensure you have the following prerequisites installed:
+
+- ROS (Galactic distribution)
+- Velodyne ROS package
+
+You can install the Velodyne ROS package using the following command:
+
+```bash
+sudo apt-get install ros-galactic-velodyne
+```
+
+### Setup Steps
+
+1. **Create Workspace:**
+
+   Create a workspace directory for the Nebula Sensor Driver on the local machine:
+
+   ```bash
+   mkdir -p ~/nebula_sensor_driver/src
+   cd ~/nebula_sensor_driver
+   ```
+
+2. **Clone Nebula Repository:**
+
+   Clone the Nebula repository into the `src` directory:
+
+   ```bash
+   git clone https://github.com/tier4/nebula.git src
+   ```
+
+3. **Import Dependencies:**
+
+   Import the dependencies using `vcs`:
+
+   ```bash
+   vcs import src < src/build_depends.repos
+   ```
+
+4. **Install Dependencies:**
+
+   Install ROS dependencies using `rosdep`:
+
+   ```bash
+   rosdep install --from-paths src --ignore-src -y -r
+   ```
+
+5. **Build Nebula:**
+
+   Build the Nebula driver using `colcon`:
+
+   ```bash
+   colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+   ```
+
+>- Make sure to source your ROS workspace (`source ~/nebula_sensor_driver/install/setup.bash`) before using the Nebula Driver.
+>- Refer to the documentation provided by the [Nebula repository](https://github.com/tier4/nebula) for further configuration and usage instructions.
 
 ## Multi-Machine Communication Setup
 
