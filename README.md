@@ -122,8 +122,18 @@ sudo apt-get install ros-galactic-velodyne
    colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
    ```
 
->- Make sure to source your ROS workspace (`source ~/nebula_sensor_driver/install/setup.bash`) before using the Nebula Driver.
->- Refer to the documentation provided by the [Nebula repository](https://github.com/tier4/nebula) for further configuration and usage instructions.
+>- Make sure to source your ROS workspace (`source ~/nebula_sensor_driver/install/setup.bash`) before using the Nebula Driver. And add the following to your `.bashrc` file.
+>
+> ```bash
+> export ROS_LOCALHOST_ONLY=1
+> export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+> if [ ! -e /tmp/cycloneDDS_configured ]; then
+>     sudo sysctl -w net.core.rmem_max=2147483647
+>     sudo ip link set lo multicast on
+>     touch /tmp/cycloneDDS_configured
+> fi
+> ```
+
 
 ## Multi-Machine Communication Setup
 
