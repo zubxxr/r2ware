@@ -234,4 +234,4 @@ To run the entire system, follow these steps:
     vehicle_model:=YOUR_VEHICLE \
     sensor_model:=YOUR_SENSOR_KIT
    ```
-4. **Execute Autonomous Valet Parking.**: Follow the steps [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware) to start the parking spot detector and enable the vehicle to autonomous park itself.
+4. **Execute Autonomous Valet Parking**: Follow the steps [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware) to start the parking spot detector and enable the vehicle to autonomous park itself.
