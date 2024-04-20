@@ -1,11 +1,23 @@
-# R2Ware
-This will help with deployment on the ROSMASTER R2 and sending all the onboard sensor data to a topic, which can be used to send to Autoware.
+# R2Ware (Autonomous Valet Parking)
+
+This repository is designed to facilitate deployment on the ROSMASTER R2 model car and stream all onboard sensor data to a topic compatible with Autoware. Following deployment, users can execute the external parking detector and autonomous parking script to enable autonomous valet parking of the model car. Please note that while the documentation is provided, it is incomplete and may be updated progressively.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Tier IV Nebula Sensor Driver](#tier-iv-nebula-sensor-driver)
+    - [Prerequisites](#prerequisites)
+    - [Setup Steps](#setup-steps)
+- [Multi-Machine Wi-Fi Communication Setup](#multi-machine-wi-fi-communication-setup)
+    - [R2 Machine](#r2-machine)
+        - [Local Machine Setup](#local-machine-setup)
+        - [Docker Container Setup](#docker-container-setup)
+    - [Ground Station Setup](#ground-station-setup)
+    - [Test Connection](#test-connection)
+- [System Deployment](#system-deployment)
+
 
 ## Getting Started 
-
-### Method 1: Deployment of R2 with Autoware over WIFI
-### Method 2. Deployment of R2 with Autoware Locally
-
 
 1. **Clone Repository:**
 
@@ -13,7 +25,7 @@ This will help with deployment on the ROSMASTER R2 and sending all the onboard s
 
    ```bash
    cd ~/
-   git clone https://github.com/ahmaad-ansari/r2ware.git
+   git clone https://github.com/zubxxr/r2ware.git
    cd r2ware
    ```
 
@@ -69,23 +81,19 @@ This will help with deployment on the ROSMASTER R2 and sending all the onboard s
    ```
 ## Tier IV Nebula Sensor Driver
 
-
-### 1.
-### 2.
-
-This guide provides instructions for setting up the Nebula Driver for VLP32C Velodyne LiDAR.
+This guide provides instructions for setting up the Nebula Driver for VLP32C Velodyne LiDAR. It must be done locally, on a Galactic or Humble ROS Distribution.
 
 ### Prerequisites
 
 Before setting up the Nebula Driver, ensure you have the following prerequisites installed:
 
-- ROS (Galactic distribution)
+- ROS (Galactic or Humble distribution)
 - Velodyne ROS package
 
 You can install the Velodyne ROS package using the following command:
 
 ```bash
-sudo apt-get install ros-galactic-velodyne
+sudo apt-get install ros-<distro>-velodyne
 ```
 
 ### Setup Steps
@@ -143,18 +151,15 @@ sudo apt-get install ros-galactic-velodyne
 > fi
 > ```
 
+## Multi-Machine Wi-Fi Communication Setup
 
-## Multi-Machine Communication Setup
+This section outlines the setup process for enabling multi-machine communication between the R2 and a ground station. It consists of setting up the network for the R2 locally and in docker container, and the ground station so they can all recognize each other over Wi-Fi. 
 
-This section outlines the setup process for enabling multi-machine communication between the R2 and a ground station.
-
-### R2 Machine
+### *R2 Machine*
 
 #### Local Machine Setup
 
-1. **Enable Multicast:**
-
-   Run the following commands on the R2's local machine to enable communication with a ground station **on the same network**:
+1. **Enable Multicast**: Run the following commands locally to enable communication with a ground station **on the same network**:
 
    ```bash
    sudo ip link set lo multicast on
@@ -169,19 +174,15 @@ This section outlines the setup process for enabling multi-machine communication
 
 #### Docker Container Setup
 
-2. **Inside Docker Container:**
-
-   Run the following commands while inside the R2's Docker container to enable communication with a ground station on the same network:
+2. **Inside Docker Container**: Run the following commands in the container to enable communication with a ground station on the same network:
 
    ```bash
    apt install -y ros-foxy-fastrtps
    ```
 
-### Ground Station Setup
+### *Ground Station Setup*
 
-3. **Ground Station Configuration:**
-
-   Run the following commands on the ground station running Autoware:
+1. **Ground Station Configuration**: Run the following commands on the ground station.
 
    ```bash
    sudo ufw disable
@@ -189,7 +190,7 @@ This section outlines the setup process for enabling multi-machine communication
    sudo apt install -y ros-humble-fastrtps
    ```
 
-   Set the following environment variables to enable ROS 2 communication:
+2. **Enable Network Discovery**: Set the following environment variables to enable ROS 2 communication:
 
    ```bash
    export ROS_LOCALHOST_ONLY=0
@@ -197,11 +198,9 @@ This section outlines the setup process for enabling multi-machine communication
    export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
    ```
 
-### Test Connection
+### *Test Connection*
 
-4. **Test Communication:**
-
-   Once you have completed the setup steps, you can test the communication between the two machines by running one command on each machine:
+4. **Test Communication**: Test the communications between the two machines. Run the talker on 1 machine and listener on the other.
 
    ```bash
    ros2 run demo_nodes_cpp listener
@@ -215,20 +214,24 @@ This section outlines the setup process for enabling multi-machine communication
 
 To run the entire system, follow these steps:
 
-1. **Run on Local Machine:**
+1. **Run Nebula Velodyne Driver on Local Machine.**
 
    ```bash
    ros2 launch nebula_ros nebula_launch.py sensor_model:=VLP32
    ```
 
-2. **Run in Docker Container:**
-
+2. **Run Vehicle Sensor Data Launcher in Docker Container.**
+   
    ```bash
    ros2 launch r2ware_launch r2ware_launch.py
    ```
 
-3. **Run on Ground Station:**
+3. **Run Autoware on Ground Station.**
 
    ```bash
-   [...]
+   ros2 launch autoware_launch autoware.launch.xml \
+    map_path:=/PATH/TO/YOUR/MAP \
+    vehicle_model:=YOUR_VEHICLE \
+    sensor_model:=YOUR_SENSOR_KIT
    ```
+4. **Execute Autonomous Valet Parking.**: Follow the steps [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware) to start the parking spot detector and enable the vehicle to autonomous park itself.
