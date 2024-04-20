@@ -1,6 +1,11 @@
 # R2Ware
+This will help with deployment on the ROSMASTER R2 and sending all the onboard sensor data to a topic, which can be used to send to Autoware.
 
-## Getting Started
+## Getting Started 
+
+### Method 1: Deployment of R2 with Autoware over WIFI
+### Method 2. Deployment of R2 with Autoware Locally
+
 
 1. **Clone Repository:**
 
@@ -62,9 +67,13 @@
    ```bash
    colcon build --symlink-install --packages-select r2ware_status
    ```
-## Teir IV Nebula Sensor Driver
+## Tier IV Nebula Sensor Driver
 
-This guide provides instructions for setting up the Nebula Driver for VLP32 3D LiDAR.
+
+### 1.
+### 2.
+
+This guide provides instructions for setting up the Nebula Driver for VLP32C Velodyne LiDAR.
 
 ### Prerequisites
 
@@ -185,6 +194,7 @@ This section outlines the setup process for enabling multi-machine communication
    ```bash
    export ROS_LOCALHOST_ONLY=0
    export ROS_DOMAIN_ID=32
+   export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
    ```
 
 ### Test Connection
