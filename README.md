@@ -1,4 +1,4 @@
-# R2Ware (Autonomous Valet Parking)
+# R2Ware and Autonomous Valet Parking
 
 This repository is designed to facilitate deployment on the ROSMASTER R2 model car and stream all onboard sensor data to a topic compatible with Autoware. Following deployment, users can execute the external parking detector and autonomous parking script to enable autonomous valet parking of the model car. Please note that while the documentation is provided, it is incomplete and may be updated progressively.
 
@@ -234,4 +234,4 @@ To run the entire system, follow these steps:
     vehicle_model:=YOUR_VEHICLE \
     sensor_model:=YOUR_SENSOR_KIT
    ```
-4. **Execute Autonomous Valet Parking**: Follow the steps [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware) to start the parking spot detector and enable the vehicle to autonomous park itself.
+4. **Execute Autonomous Valet Parking**: Follow the steps [here](https://github.com/zubxxr/Automated-Valet-Parking-Autoware) to start the parking spot detector and enable the vehicle to autonomously park itself.
