@@ -28,7 +28,7 @@ repositories:
   # LAUNCHER
   launcher/r2ware_launch:
     type: git
-    url:https://github.com/ahmaad-ansari/r2ware_launch
+    url: https://github.com/ahmaad-ansari/r2ware_launch
     version: main
 
   # STATUS
