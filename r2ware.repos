@@ -16,7 +16,7 @@ repositories:
   # CONTROL
   control/r2ware_control:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_status
+    url: https://github.com/ahmaad-ansari/r2ware_control
     version: main
     
   # SENSING
