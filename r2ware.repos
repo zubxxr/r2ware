@@ -8,31 +8,27 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
     version: main
-  autoware_dependencies/core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
-    type: git
-    url: https://github.com/tier4/autoware_auto_msgs.git
-    version: tier4/main
     
   # CONTROL
   control/r2ware_control:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_control
+    url: https://github.com/zubxxr/r2ware_control
     version: main
     
   # SENSING
   sensing/r2ware_sensing:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_sensing
+    url: https://github.com/zubxxr/r2ware_sensing
     version: main
     
   # LAUNCHER
   launcher/r2ware_launch:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_launch
+    url: https://github.com/zubxxr/r2ware_launch
     version: main
 
   # STATUS
   status/r2ware_status:
     type: git
-    url: https://github.com/ahmaad-ansari/r2ware_status
+    url: https://github.com/zubxxr/r2ware_status
     version: main
